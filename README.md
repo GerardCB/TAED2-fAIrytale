@@ -3,7 +3,7 @@
 The objective of this project is...
 
 ## Communications
-- **Trello:** www.trello.com/fairytale
+- **Trello:** [www.trello.com/fairytale](https://trello.com/b/2fNYtjXg/fairytale)
 - **Discord:** www.discord
 
 ## Authors' contact
