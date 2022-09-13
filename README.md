@@ -13,7 +13,7 @@ David Pujalte Pérez david.pujalte@estudiantat.upc.edu
 
 Pau Tarragó Navarra pau.tarrago@estudiantat.upc.edu
 
-Marc Torrents Punsola: marc.torrents.punsola@estudiantat.upc.edu
+Marc Torrens Punsola: marc.torrens.punsola@estudiantat.upc.edu
 
 Gerard Calvo Bartra: gerard.calvo.bartra@estudiantat.upc.edu
 
