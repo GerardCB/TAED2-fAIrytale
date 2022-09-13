@@ -4,7 +4,7 @@ The objective of this project is...
 
 ## Communications
 - [**Trello**](https://trello.com/b/2fNYtjXg/fairytale)
-- [**Discord:**](https://discord.gg/yEgT3Vbq)
+- [**Discord**](https://discord.gg/yEgT3Vbq)
 
 ## Authors' contact
 Helena Ferran Pauda: helena.ferran@estudiantat.upc.edu 
