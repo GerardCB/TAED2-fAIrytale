@@ -7,7 +7,7 @@ The objective of this project is...
 - [**Discord**](https://discord.gg/yEgT3Vbq)
 
 ## Authors' contact
-Helena Ferran Pauda: helena.ferran@estudiantat.upc.edu 
+Helena Ferran Padua: helena.ferran@estudiantat.upc.edu 
 
 David Pujalte Pérez: david.pujalte@estudiantat.upc.edu
 
