@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+
+.animated-logo {
+  animation: logo-animation 10s ease infinite forwards
+}
+
+@keyframes logo-animation {
+  0% { opacity: 1 }
+  40% { opacity: 1 }
+  50% { opacity: 0}
+  60% { opacity: 1}
+  100% {opacity: 1}
+}
+
+.hidden {
+  opacity: 0
+}
+
+.appear-up-delay {
+  opacity: 0;
+  animation: appear-up 1s 0.5s forwards;
+}
+
+@keyframes appear-up {
+  0% {
+    transform: translateY(20px);
+    opacity: 0
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.grow-on-hover {
+  transform: scale(1);
+  transition: transform 0.2s
+}
+
+.grow-on-hover:hover {
+  transform: scale(1.3)
+}
