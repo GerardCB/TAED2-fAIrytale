@@ -8,7 +8,7 @@ All the labeled data was obtained through web scrapping with [**monkeypen**](htt
 
 ## Installation
 
-There's no need of installation, the execution of the program is entirelly in the cloud. Through the web page [**fairytale**](https://fairytale.com) you'll be able to connect with the server, so you can send your fairytale and recieve a set of images.
+There's no need of installation, the execution of the program is entirelly in the cloud. Through the web page [**fairytale**](https://fairytale.ml/) you'll be able to connect with the server, so you can send your fairytale and recieve a set of images.
 
 ## Examples
 
@@ -21,7 +21,7 @@ The user sends the next phrase: "I turned around and took one step. Into a puddl
 - [**Discord**](https://discord.gg/yEgT3Vbq)
 
 ## Authors' contact
-Helena Ferran Padua: helena.ferran@estudiantat.upc.edu 
+Helena Ferran Pauda: helena.ferran@estudiantat.upc.edu 
 
 David Pujalte Pérez: david.pujalte@estudiantat.upc.edu
 
