@@ -1,6 +1,6 @@
 # fAIrytale
 
-The objective of this project is to offer a service that given a set of paragraphs that conforms a fairy tail returns a set of children's illustrations.
+The objective of this project is to offer a service that given a set of paragraphs that conforms a childrens book, returns a set of illustrations that match each of the provided paragraph.
 
 ## Data
 
@@ -8,7 +8,11 @@ All the labeled data was obtained through web scrapping with [**monkeypen**](htt
 
 ## Installation
 
+<<<<<<< HEAD
 There's no need of installation, the execution of the program is entirelly in the cloud. Through the web page [**fairytale**](https://fairytale.ml/) you'll be able to connect with the server, so you can send your fairytale and recieve a set of images.
+=======
+There's no need of installation, the execution of the program is entirelly in the cloud. Through the web page [**fairytale**](https://fairytale.ml) you'll be able to connect with the server, so you can send your fairytale and recieve a set of images.
+>>>>>>> 2df28d42053a81beb3943b5fb02ec81d1f2ec783
 
 ## Examples
 
