@@ -6,7 +6,11 @@ Inspired by [Stable Diffusion v1-4 Model Card](https://huggingface.co/CompVis/st
 
 Stable Diffusion is a latent text-to-image diffusion model capable of generating photo-realistic images given any text input. The fAIrytale model combines the Stable-Diffusion-v1-4 checkpoint with [FLAIR](https://huggingface.co/flair/ner-englis), for the Named Entity Recognition task, and with [ROBERTA](https://arxiv.org/abs/1907.11692), for QA and Multi Natural Languagse Inference (MNLI) tasks.
 
+<<<<<<< HEAD
+However, the fAIrytale model only fine-tunnes the Stable Diffusion Model. Therefore, in this model card we will focus on the text-to-image part of our model.
+=======
 However, the fAIrytale model only fine-tunnes the Stable Diffusion Model. Therefore, in this model card we will focus on such model.
+>>>>>>> 145a3a56e0add605b494ab54f1bb440054079cdf
 
  ## Model Details
 - **Originally developed by:** Robin Rombach, Patrick Esser
@@ -124,6 +128,9 @@ steps show the relative improvements of the checkpoints:
 ![pareto](https://huggingface.co/CompVis/stable-diffusion/resolve/main/v1-variants-scores.jpg)
 
 Evaluated using 50 PLMS steps and 10000 random prompts from the COCO2017 validation set, evaluated at 512x512 resolution. Not optimized for FID scores.
+
+The fine tunned version of fAIrytale is still to be evaluated.
+
 ## Environmental Impact
 
 **Stable Diffusion v1** **Estimated Emissions**
@@ -137,4 +144,3 @@ Based on that information, we estimate the following CO2 emissions using the [Ma
 
 **fAIrytale fine tunning** **Estimated Emissions**
 Still to be determined.
-
