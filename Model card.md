@@ -6,7 +6,7 @@ Inspired by [Stable Diffusion v1-4 Model Card](https://huggingface.co/CompVis/st
 
 Stable Diffusion is a latent text-to-image diffusion model capable of generating photo-realistic images given any text input. The fAIrytale model combines the Stable-Diffusion-v1-4 checkpoint with [FLAIR](https://huggingface.co/flair/ner-englis), for the Named Entity Recognition task, and with [ROBERTA](https://arxiv.org/abs/1907.11692), for QA and Multi Natural Languagse Inference (MNLI) tasks.
 
-However, the fAIrytale model only fine-tunnes the Stable Diffusion Model. Therefore, in this model card ww will focus on this model.
+However, the fAIrytale model only fine-tunnes the Stable Diffusion Model. Therefore, in this model card we will focus on such model.
 
  ## Model Details
 - **Originally developed by:** Robin Rombach, Patrick Esser
