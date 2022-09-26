@@ -1,0 +1,21 @@
+stages:
+  data_loading:
+    cmd: python src/data/data_loading.py
+    deps:
+      - src/data/data_loading.py
+    outs:
+    - data/raw.json
+  prepare:
+    cmd: python src/data/data_prepearing.py
+    deps:
+    - data/raw.json
+    - src/data/data_prepearing.py
+    params:
+    - prepare.random_state
+    - prepare.test_size
+    - prepare.train_size
+    outs:
+    - data/X_train.json
+    - data/X_test.json
+    - data/y_train.json
+    - data/y_test.json
