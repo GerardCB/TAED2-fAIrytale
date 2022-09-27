@@ -10,7 +10,7 @@ However, the fAIrytale model only fine-tunnes the Stable Diffusion Model. Theref
 
  ## Model Details
 - **Originally developed by:** Robin Rombach, Patrick Esser
-- **Fine tunned by:** Helena Ferran Padua, David Pujalte Pérez, Pau Tarragó Navarra,  Marc Torrens Punsola, Gerard Calvo Bartra
+- **Fine tuned by:** Helena Ferran Padua, David Pujalte Pérez, Pau Tarragó Navarra,  Marc Torrens Punsola, Gerard Calvo Bartra
 - **Model type:** Diffusion-based text-to-image generation model
 - **Language(s):** English
 - **License:** [The CreativeML OpenRAIL M license](https://huggingface.co/spaces/CompVis/stable-diffusion-license) is an [Open RAIL M license](https://www.licenses.ai/blog/2022/8/18/naming-convention-of-responsible-ai-licenses), adapted from the work that [BigScience](https://bigscience.huggingface.co/) and [the RAIL Initiative](https://www.licenses.ai/) are jointly carrying in the area of responsible AI licensing. See also [the article about the BLOOM Open RAIL license](https://bigscience.huggingface.co/blog/the-bigscience-rail-license) on which our license is based.
