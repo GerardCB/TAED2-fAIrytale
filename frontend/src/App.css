@@ -63,3 +63,25 @@
 .grow-on-hover:hover {
   transform: scale(1.3)
 }
+
+.grow-less-on-hover {
+  transform: scale(1);
+  cursor: pointer;
+  transition: transform 0.2s
+}
+
+.grow-less-on-hover:hover {
+  transform: scale(1.1)
+}
+
+.copy-icon {
+  font-size: 1.8em;
+  color: white;
+  transition: 0.2s;
+  transform: scale(1);
+  cursor: pointer
+}
+
+.copy-icon:hover {
+  transform: scale(1.1);
+}
