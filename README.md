@@ -1,5 +1,3 @@
-holaquetal
-
 # fAIrytale
 
 The objective of this project is to offer a service that given a set of paragraphs that conforms a childrens book, returns a set of illustrations that match each of the provided paragraph.
