@@ -3,4 +3,5 @@ uvicorn
 git+https://github.com/huggingface/diffusers
 transformers
 ftfy
+scipy
 bitsandbytes
