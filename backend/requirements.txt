@@ -5,3 +5,4 @@ transformers
 ftfy
 scipy
 bitsandbytes
+torch
