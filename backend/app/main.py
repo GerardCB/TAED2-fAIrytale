@@ -81,7 +81,7 @@ tags_metadata = [
     },
     {
         "name": "images",
-        "description": "Get the images generated. One per paragraph.",
+        "description": "Get the images generated in base64 format. One per paragraph.",
     },
 ]
 
