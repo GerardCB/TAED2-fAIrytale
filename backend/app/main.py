@@ -62,7 +62,7 @@ def generate_images_task(userId, inputText):
 
 calculations = {}
 
-model_path = './fAIrytale/'
+model_path = os.path.join(os.path.dirname(__file__), 'fAIrytale/')
 
 pipe = load_sd_pipe(model_path, 'cpu')
 

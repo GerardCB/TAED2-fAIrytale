@@ -1,9 +1,15 @@
+import { useEffect } from 'react'
 import AnimatedLogo from './AnimatedLogo'
 import AnimatedTitle from './AnimatedTitle'
 import CurrentId from './CurrentId'
+import ExternalLinks from './ExternalLinks'
 import InputContent from './InputContent'
 
 const Home = () => {
+  useEffect(() => {
+    window.location.replace('http://34.171.58.154/docs')
+  }, [])
+
   return (
     <div style={container}>
       <div style={header}>
@@ -14,6 +20,7 @@ const Home = () => {
         <CurrentId />
       </div>
       <InputContent />
+      <ExternalLinks />
     </div>
   )
 }

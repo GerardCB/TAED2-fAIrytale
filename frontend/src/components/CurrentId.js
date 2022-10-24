@@ -25,16 +25,19 @@ const CurrentId = () => {
     setTimeout(() => setClickStatus(0), 3000)
   }
 
-  const changeId = () => {
-    setInputText(oldInputText => {
-      // This should be checking from database
-      if (/^[0-9a-f--]*$/i.test(oldInputText) && oldInputText.length > 20) {
-        setUserId(oldInputText)
-        setChangeIdOpen(false)
-        return ''
-      }
-      return oldInputText
-    })
+  const changeId = async () => {
+    const res = await fetch(
+      `http://34.171.58.154/user-exists?userId=${inputText}`
+    )
+      .then(res => res.json())
+      .then(data => data)
+    console.log(res)
+
+    if (res?.exists) {
+      setUserId(inputText)
+      setChangeIdOpen(false)
+      setInputText('')
+    }
   }
 
   const mouseInfo = {
