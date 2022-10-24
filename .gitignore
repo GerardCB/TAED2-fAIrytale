@@ -111,3 +111,8 @@ target/
 /frontendnpm-debug.log*
 /frontendyarn-debug.log*
 /frontendyarn-error.log*
+
+# backend
+/backend/env/*
+/backend/app/fAIrytale/*
+/backend/app/__pycache__/*
